@@ -155,12 +155,12 @@
 
     <ImageView
         android:id="@+id/registrar_signature_image"
-        android:layout_width="wrap_content"
+       android:layout_width="wrap_content"
         android:layout_height="100dp"
-        android:layout_marginStart="140dp"
+       android:layout_marginStart="140dp"
         android:layout_marginTop="12dp"
 
-        android:contentDescription="Registrar Signature"
+       android:contentDescription="Registrar Signature"
         android:src="@drawable/signature"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/blood_group" />
@@ -183,7 +183,7 @@
         android:id="@+id/contact_me_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Contact  Me"
+        android:text="Contact "
         android:textColor="@android:color/black"
         android:textStyle="bold"
         android:textSize="14sp"
